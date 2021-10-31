@@ -1,0 +1,14 @@
+package selfProgramming;
+
+public class mathClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int a = 5;
+        int b = 14;
+        int c = 6;
+        double x = ((-b +Math.sqrt(b*b-4*a*c))/(2*a));
+        System.out.println(x);
+	}
+
+}
